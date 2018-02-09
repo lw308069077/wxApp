@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/active/active",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#f1f1f1",
+    "color":"#999999",
+    "selectedColor": "#ff6600",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index-hl.png",
+        "selectedIconPath": "images/tabBar/index.png"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "text": "活动",
+        "iconPath": "images/tabBar/active-hl.png",
+        "selectedIconPath": "images/tabBar/active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "images/tabBar/user-hl.png",
+        "selectedIconPath": "images/tabBar/user.png"
+      }
+    ]
+  }
+}
